@@ -1,0 +1,61 @@
+#main-kontener {
+    display: grid;
+    grid-template-columns: 350px auto;
+}
+
+#teszt-kontener {
+    background-color: black;
+    padding: 1em;
+}
+
+#teszt-kontener h1,
+#teszt-kontener > p {
+    color: whitesmoke;
+}
+
+.kerdesek-kontener {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2em;
+}
+
+.egyedi-kerdes {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    position: relative;
+}
+
+.egyedi-kerdes .kerdes-szam {
+    color: red;
+}
+
+.egyedi-kerdes ul {
+    list-style-position: inside;
+}
+
+.egyedi-kerdes button {
+    bottom: 10px;
+    position: absolute;
+    width: 100px;
+}
+
+.egyedi-kerdes .kulso-indoklas {
+    visibility: hidden;
+}
+
+.egyedi-kerdes .indoklas {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+    .kerdesek-kontener {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

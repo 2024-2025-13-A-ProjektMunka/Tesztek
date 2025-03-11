@@ -1,0 +1,29 @@
+{
+    "name": "tesztek",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/2024-2025-13-A-ProjektMunka/Tesztek.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/2024-2025-13-A-ProjektMunka/Tesztek/issues"
+    },
+    "homepage": "https://github.com/2024-2025-13-A-ProjektMunka/Tesztek#readme",
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "ejs": "^3.1.10",
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
+}

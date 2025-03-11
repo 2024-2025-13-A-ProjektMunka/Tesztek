@@ -1,0 +1,8 @@
+A következő témában hozz létre négy quiz kérdést a következő feltételekkel:
+
+A tiszta kód elméleti alapjai és gyakorlata: Határok és külső kód használata
+
+- minden kérdésre négy lehetséges válasz
+- két kérdés esetén egy jó válasz
+- két kérdés esetén két jó válasz
+- minden esetben néhány mondatban indokold a jó válaszokat

@@ -1,0 +1,12 @@
+nav {
+    list-style-type: none;
+    position: fixed;
+}
+
+nav li button {
+    font-family: 'Fredoka', sans-serif;
+    font-size: large;
+    height: 50px;
+    margin-bottom: 5px;
+    width: 300px;
+}
