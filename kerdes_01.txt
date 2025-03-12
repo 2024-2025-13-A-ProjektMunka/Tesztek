@@ -6,3 +6,5 @@ A tiszta kód elméleti alapjai és gyakorlata: Határok és külső kód haszn�
 - két kérdés esetén egy jó válasz
 - két kérdés esetén két jó válasz
 - minden esetben néhány mondatban indokold a jó válaszokat
+
+Kérek forrásokat is linkekkel.

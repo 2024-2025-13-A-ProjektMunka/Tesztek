@@ -294,5 +294,105 @@ let tisztakod = [
             indoklas:
                 'A változókat ott érdemes deklarálni, ahol először használjuk őket, hogy csökkentsük a felesleges kódbejárást. A hosszú kifejezések sorokra bontása javítja az olvashatóságot. Az indokolatlanul egy helyre csoportosított deklarációk és a túlzott whitespace takarékoskodás rontja a kód érthetőségét.',
         },
+        {
+            fokerdes:
+                'Mi a tiszta kód egyik alapelve külső könyvtárak használatakor?',
+            kerdesek: [
+                {
+                    kerdes: 'Mindig saját kódot kell írni, külső könyvtárakat nem szabad használni.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A külső könyvtárakat dokumentálni kell, és világosan jelezni, hogy mire használjuk őket.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A külső könyvtárakat szabadon frissíthetjük bármikor, anélkül hogy tesztelnénk a kódot.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A külső könyvtárak kódját mindig teljes egészében másoljuk be a saját projektünkbe.',
+                    eldont: 0,
+                },
+            ],
+            helyes: 1,
+            indoklas:
+                'A külső könyvtárak használata megkönnyítheti a fejlesztést, de fontos dokumentálni őket, hogy más fejlesztők is megértsék a szerepüket. A könyvtárak frissítését mindig tesztelni kell, és a másolás helyett a függőségkezelőt kell használni.',
+        },
+        {
+            fokerdes:
+                'Hogyan kezeljük a külső API-kat a tiszta kód elvei szerint?',
+            kerdesek: [
+                {
+                    kerdes: 'Az API hívásokat közvetlenül a kódban, mindenhol elhelyezhetjük.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Egy külön interfészt vagy réteget érdemes létrehozni az API hívásokhoz.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Nem szükséges kezelni az API-hívások hibáit, mert azok mindig megfelelő választ adnak.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az API által visszaadott adatokat érdemes validálni és szükség esetén átalakítani.',
+                    eldont: 1,
+                },
+            ],
+            helyes: 2,
+            indoklas:
+                'Az API-hívásokat egy külön rétegbe szervezve átláthatóbb és könnyebben módosítható a kód. Az adatok validálása segít elkerülni a hibákat, mivel az API-k válaszai változhatnak vagy tartalmazhatnak hibás adatokat.',
+        },
+        {
+            fokerdes:
+                'Melyik két állítás igaz a külső könyvtárak és függőségek megfelelő kezelésével kapcsolatban?',
+            kerdesek: [
+                {
+                    kerdes: 'A függőségeket folyamatosan frissíteni kell, de minden változás előtt tesztelni kell a kódot.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A külső könyvtárakhoz írt adapterek segíthetnek a kód függetlenítésében és karbantarthatóságában.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Ha egy külső könyvtár megszűnik vagy nem frissül, azt mindig tovább kell használni, mert már beépült a kódba.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A külső függőségeket mindig közvetlenül kell meghívni, külön réteg létrehozása felesleges.',
+                    eldont: 0,
+                },
+            ],
+            helyes: 2,
+            indoklas:
+                'A függőségek rendszeres frissítése segít a biztonsági problémák elkerülésében, de mindig tesztelni kell a frissítéseket. Az adapterek használata segít elkerülni a külső könyvtárakra való túlzott kötődést, így könnyebb később cserélni vagy eltávolítani őket.',
+        },
+        {
+            fokerdes:
+                'Melyik két állítás igaz a határok kezelésére a tiszta kódban?',
+            kerdesek: [
+                {
+                    kerdes: 'A külső rendszerek hatásait izolálni kell, hogy könnyebben tesztelhető legyen a saját kódunk.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A külső rendszerekből érkező adatokat mindig megbízhatónak kell tekinteni.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Ha egy külső rendszer API-ja megváltozik, akkor azonnal át kell írni az összes kódrészletet, ahol használjuk.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A határok kezelésekor érdemes egy köztes absztrakciós réteget létrehozni, hogy csökkentsük a függőségeket.',
+                    eldont: 1,
+                },
+            ],
+            helyes: 2,
+            indoklas:
+                'A külső rendszerek hatásainak izolálása megkönnyíti a tesztelést és a kód karbantartását. Az adatok ellenőrzése mindig szükséges, mert a külső rendszerek nem garantálnak mindig helyes vagy biztonságos adatokat. Egy köztes réteg (például adapter vagy interfész) segíthet csökkenteni a közvetlen függőségeket és megkönnyíti a későbbi módosításokat.',
+        },
     ],
 ];
