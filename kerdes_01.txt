@@ -1,6 +1,7 @@
 A következő témában hozz létre négy quiz kérdést a következő feltételekkel:
 
-A tiszta kód elméleti alapjai és gyakorlata: Határok és külső kód használata
+HTML5, CSS3: Ismeri a HTML-listák típusait és képes ilyen listák készítésére (ul, ol, li).
+
 
 - minden kérdésre négy lehetséges válasz
 - két kérdés esetén egy jó válasz
