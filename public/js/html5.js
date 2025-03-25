@@ -457,5 +457,250 @@ let html5 = [
             indoklas:
                 'A &lt;ol&gt; (ordered list) elem rendezett listát hoz létre, amely számozott vagy betűkkel jelölt listaelemekből áll. A &lt;li&gt; (list item) az egyes elemeket határozza meg mind a &lt;ul&gt;, mind az &lt;ol&gt; listákon belül. A &lt;ul&gt; rendezetlen listához kell, a &lt;dl&gt; pedig definíciós listákhoz.',
         },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz a &lt;dl&gt; (definíciós lista) elemre?',
+            kerdesek: [
+                {
+                    kerdes: 'A &lt;dl&gt; definíciós listát hoz létre.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A &lt;dt&gt; elem a definíció címét jelöli.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A &lt;dl&gt; mindig számozott listát jelenít meg.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A &lt;dd&gt; az adott definícióhoz tartozó magyarázatot adja.',
+                    eldont: 0,
+                },
+            ],
+            helyes: 1,
+            indoklas:
+                'A &lt;dl&gt; (definition list) definíciós listát hoz létre, amelyben a &lt;dt&gt; a definiált kifejezést, a &lt;dd&gt; pedig annak magyarázatát tartalmazza.',
+        },
+        {
+            fokerdes: 'Melyik HTML elem NEM használható listák létrehozásához?',
+            kerdesek: [
+                {
+                    kerdes: '&lt;dl&gt;',
+                    eldont: 0,
+                },
+                {
+                    kerdes: '&lt;ul&gt;',
+                    eldont: 0,
+                },
+                {
+                    kerdes: '&lt;li&gt;',
+                    eldont: 0,
+                },
+                {
+                    kerdes: '&lt;span&gt;',
+                    eldont: 1,
+                },
+            ],
+            helyes: 1,
+            indoklas:
+                'A &lt;span&gt; egy inline elem, amely szövegek formázására szolgál, de nem használható listák létrehozására. A &lt;dl&gt; definíciós listához, a &lt;ul&gt; rendezetlen listához, a &lt;li&gt; pedig listaelemekhez használatos.',
+        },
+        {
+            fokerdes: 'Melyik HTML elem használandó táblázat létrehozásához?',
+            kerdesek: [
+                {
+                    kerdes: 'A &lt;table&gt; elem.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A &lt;div&gt; elem.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A &lt;tr&gt; elem.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A &lt;span&gt; elem.',
+                    eldont: 0,
+                },
+            ],
+            helyes: 1,
+            indoklas:
+                'A &lt;table&gt; elem a HTML-ben táblázatok létrehozására szolgál. A &lt;tr&gt; csak egy táblázatsor, a &lt;div&gt; és &lt;span&gt; pedig általános konténerek, nem táblázatokhoz valók.',
+        },
+        {
+            fokerdes:
+                'Mely HTML elemek szükségesek egy táblázatsor és egy cella létrehozásához?',
+            kerdesek: [
+                {
+                    kerdes: 'A &lt;tr&gt; és a &lt;th&gt; elem.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A &lt;ul&gt; és a &lt;li&gt; elem.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A &lt;th&gt; és a &lt;td&gt; elem.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A &lt;p&gt; és a &lt;br&gt; elem.',
+                    eldont: 0,
+                },
+            ],
+            helyes: 2,
+            indoklas:
+                'A &lt;tr&gt; elem egy táblázatsort, míg a &lt;td&gt; elem egy táblázati cellát hoz létre. A &lt;th&gt; is cella, de fejlécnek való. Az &lt;ul&gt;, &lt;li&gt;, &lt;p&gt; és &lt;br&gt; nem használandó táblázatokhoz.',
+        },
+        {
+            fokerdes:
+                'Melyik HTML elem használható táblázati fejléc létrehozásához?',
+            kerdesek: [
+                {
+                    kerdes: 'A &lt;th&gt; elem.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A &lt;td&gt; elem.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A &lt;caption&gt; elem.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A &lt;h1&gt; elem.',
+                    eldont: 0,
+                },
+            ],
+            helyes: 1,
+            indoklas:
+                'A &lt;th&gt; elem fejléc cellát hoz létre a táblázatban. A &lt;td&gt; sima cella, a &lt;caption&gt; táblázatcímet ad, a &lt;h1&gt; pedig címsor, nem táblázati elem.',
+        },
+        {
+            fokerdes: 'Melyik állítás igaz a &lt;caption&gt; elemre?',
+            kerdesek: [
+                {
+                    kerdes: 'A &lt;caption&gt; egy táblázat címének megadására szolgál.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A &lt;caption&gt; egy cellában megjelenő szöveg kiemelésére szolgál.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A &lt;caption&gt; mindig a táblázat felett jelenik meg.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A &lt;caption&gt; használata kötelező minden táblázat esetében.',
+                    eldont: 0,
+                },
+            ],
+            helyes: 2,
+            indoklas:
+                'A &lt;caption&gt; egy táblázat címének megadására való, és alapértelmezés szerint a táblázat felett jelenik meg. Nem kötelező minden táblázatban használni, de ajánlott a jobb érthetőség érdekében.',
+        },
+        {
+            fokerdes:
+                'Melyik szabály határozza meg a CSS szabályok érvényesülési sorrendjét?',
+            kerdesek: [
+                {
+                    kerdes: 'A specifikusság.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A forráskód sorrendje.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A `!important` használata.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A HTML elemek természetes sorrendje.',
+                    eldont: 0,
+                },
+            ],
+            helyes: 2,
+            indoklas:
+                'A CSS kiértékelésénél először a specifikusság számít, majd ha azonosak, a forráskódban később megadott stílus érvényesül. Az `!important` felülírhat más szabályokat, de nem a kiértékelési sorrend alapvető szabálya.',
+        },
+        {
+            fokerdes: 'Melyik CSS szabály élvez elsőbbséget az alábbiak közül?',
+            kerdesek: [
+                {
+                    kerdes: 'Egy beágyazott &lt;style&gt; blokkban megadott szabály.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Egy külső CSS fájlban megadott szabály.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Egy inline stílus (`style` attribútum a HTML elemben).',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Egy böngésző alapértelmezett stílusa.',
+                    eldont: 0,
+                },
+            ],
+            helyes: 1,
+            indoklas:
+                'A böngésző alapértelmezett stílusait a felhasználó által definiált vagy a fejlesztő által írt stílusok felülírják. Az inline stílus a legmagasabb prioritású, kivéve ha egy másik szabály `!important`-tal van megadva.',
+        },
+        {
+            fokerdes: 'Melyik állítás igaz a `!important` kulcsszóra?',
+            kerdesek: [
+                {
+                    kerdes: 'Felülír minden más stílust, függetlenül a specifikusságtól.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Csak az azonos specifikusságú szabályokat írja felül.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Csak inline stílusok esetében használható.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A `!important`-tal megjelölt stílust csak egy másik `!important` felülírása írhatja felül.',
+                    eldont: 1,
+                },
+            ],
+            helyes: 2,
+            indoklas:
+                'A `!important` minden más szabályt felülír, függetlenül a forráskód sorrendjétől vagy specifikusságától. Azonban egy másik `!important`-tal ellátott szabály magasabb specifikussággal még mindig érvényesülhet.',
+        },
+        {
+            fokerdes:
+                'Mely tényezők befolyásolják egy CSS szabály érvényesülését?',
+            kerdesek: [
+                {
+                    kerdes: 'A specifikusság.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A deklaráció helye (külső, belső, inline).',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A HTML elemek sorrendje a dokumentumban.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A forráskód sorrendje.',
+                    eldont: 1,
+                },
+            ],
+            helyes: 3,
+            indoklas:
+                'A CSS szabályok érvényesülését elsősorban a specifikusság, a deklaráció helye és a forráskódban való sorrendje határozza meg. A HTML elemek sorrendje önmagában nem befolyásolja a CSS alkalmazását.',
+        },
     ],
 ];

@@ -1,6 +1,7 @@
 A következő témában hozz létre négy quiz kérdést a következő feltételekkel:
 
-HTML5, CSS3: Ismeri a HTML-listák típusait és képes ilyen listák készítésére (ul, ol, li).
+HTML5, CSS3: Ismeri a CSS-szabályok kiértékelési sorrendjét, a stílusokat ennek figyelembevételével definiálja és alkalmazza.
+
 
 
 - minden kérdésre négy lehetséges válasz
@@ -9,3 +10,30 @@ HTML5, CSS3: Ismeri a HTML-listák típusait és képes ilyen listák készíté
 - minden esetben néhány mondatban indokold a jó válaszokat
 
 Kérek forrásokat is linkekkel.
+
+Ezt a formát használt minden quiz kérdés esetén:
+{
+	fokerdes:
+		'Melyik állítás nem igaz a &lt;dl&gt; (definíciós lista) elemre?',
+	kerdesek: [
+		{
+			kerdes: 'A &lt;dl&gt; definíciós listát hoz létre.',
+			eldont: 0,
+		},
+		{
+			kerdes: 'A &lt;dt&gt; elem a definíció címét jelöli.',
+			eldont: 0,
+		},
+		{
+			kerdes: 'A &lt;dl&gt; mindig számozott listát jelenít meg.',
+			eldont: 1,
+		},
+		{
+			kerdes: 'A &lt;dd&gt; az adott definícióhoz tartozó magyarázatot adja.',
+			eldont: 0,
+		},
+	],
+	helyes: 1,
+	indoklas:
+		'A &lt;dl&gt; (definition list) definíciós listát hoz létre, amelyben a &lt;dt&gt; a definiált kifejezést, a &lt;dd&gt; pedig annak magyarázatát tartalmazza.',
+} 
