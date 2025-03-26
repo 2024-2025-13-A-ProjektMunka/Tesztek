@@ -1,6 +1,7 @@
 A következő témában hozz létre négy quiz kérdést a következő feltételekkel:
 
-HTML5, CSS3: Ismeri a CSS-szabályok kiértékelési sorrendjét, a stílusokat ennek figyelembevételével definiálja és alkalmazza.
+HTML5, CSS3: Ismeri a CSS3-szelektorok típusait (univerzális, elem, azonosító, osztály, pszeudo
+és speciális szelektorok), képes a megfelelő szelektor kiválasztásával stílus definiálására.
 
 
 

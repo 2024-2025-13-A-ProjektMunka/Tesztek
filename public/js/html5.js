@@ -617,7 +617,7 @@ let html5 = [
                     eldont: 0,
                 },
                 {
-                    kerdes: 'A `!important` használata.',
+                    kerdes: 'Az !important használata.',
                     eldont: 1,
                 },
                 {
@@ -627,7 +627,7 @@ let html5 = [
             ],
             helyes: 2,
             indoklas:
-                'A CSS kiértékelésénél először a specifikusság számít, majd ha azonosak, a forráskódban később megadott stílus érvényesül. Az `!important` felülírhat más szabályokat, de nem a kiértékelési sorrend alapvető szabálya.',
+                'A CSS kiértékelésénél először a specifikusság számít, majd ha azonosak, a forráskódban később megadott stílus érvényesül. Az !important felülírhat más szabályokat, de nem a kiértékelési sorrend alapvető szabálya.',
         },
         {
             fokerdes: 'Melyik CSS szabály élvez elsőbbséget az alábbiak közül?',
@@ -641,7 +641,7 @@ let html5 = [
                     eldont: 0,
                 },
                 {
-                    kerdes: 'Egy inline stílus (`style` attribútum a HTML elemben).',
+                    kerdes: 'Egy inline stílus (style attribútum a HTML elemben).',
                     eldont: 1,
                 },
                 {
@@ -651,10 +651,10 @@ let html5 = [
             ],
             helyes: 1,
             indoklas:
-                'A böngésző alapértelmezett stílusait a felhasználó által definiált vagy a fejlesztő által írt stílusok felülírják. Az inline stílus a legmagasabb prioritású, kivéve ha egy másik szabály `!important`-tal van megadva.',
+                'A böngésző alapértelmezett stílusait a felhasználó által definiált vagy a fejlesztő által írt stílusok felülírják. Az inline stílus a legmagasabb prioritású, kivéve ha egy másik szabály !important-tal van megadva.',
         },
         {
-            fokerdes: 'Melyik állítás igaz a `!important` kulcsszóra?',
+            fokerdes: 'Melyik állítás igaz a !important kulcsszóra?',
             kerdesek: [
                 {
                     kerdes: 'Felülír minden más stílust, függetlenül a specifikusságtól.',
@@ -669,13 +669,13 @@ let html5 = [
                     eldont: 0,
                 },
                 {
-                    kerdes: 'A `!important`-tal megjelölt stílust csak egy másik `!important` felülírása írhatja felül.',
+                    kerdes: 'A !important-tal megjelölt stílust csak egy másik !important felülírása írhatja felül.',
                     eldont: 1,
                 },
             ],
             helyes: 2,
             indoklas:
-                'A `!important` minden más szabályt felülír, függetlenül a forráskód sorrendjétől vagy specifikusságától. Azonban egy másik `!important`-tal ellátott szabály magasabb specifikussággal még mindig érvényesülhet.',
+                'Az !important minden más szabályt felülír, függetlenül a forráskód sorrendjétől vagy specifikusságától. Azonban egy másik !important-tal ellátott szabály magasabb specifikussággal még mindig érvényesülhet.',
         },
         {
             fokerdes:
