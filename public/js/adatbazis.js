@@ -1,1 +1,1 @@
-let adatbazis = ['Adatbázis-tervezés, adatbázis-kezelés, SQL', 4];
+let adatbazis = ['Adatbázis-tervezés, adatbázis-kezelés, SQL', 4, []];

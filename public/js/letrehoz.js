@@ -1,5 +1,8 @@
 function letrehoz(tomb, ehhez) {
     let tartalom = '';
+    tartalom += '<div id="elrejt" onclick="elrejt()">';
+    tartalom += '<span class="material-symbols-outlined"> menu </span>';
+    tartalom += '</div>';
     tartalom += `<h1>${tomb[0]}</h1>`;
     tartalom += `<p>(${tomb[2].length} kérdés) </p>`;
     tartalom += '<div class="kerdesek-kontener">';
@@ -9,6 +12,9 @@ function letrehoz(tomb, ehhez) {
         tartalom += `<h3><span class="kerdes-szam">${i + 1}. Kérdés</span>: ${
             tomb[2][i].fokerdes
         } (${tomb[2][i].helyes} jó válasz)</h3>`;
+        if (tomb[2][i].kep) {
+            tartalom += `<div class="kep-tarto"><img src=${tomb[2][i].kep} /></div>`;
+        }
         tartalom += '<ul>';
         kever(tomb[2][i].kerdesek);
         for (let j = 0; j < tomb[2][i].kerdesek.length; j++) {

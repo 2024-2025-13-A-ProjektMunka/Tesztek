@@ -1,1 +1,5 @@
-let frontend = ['Frontend készítésre szolgáló JavaScript keretrendszerek', 6];
+let frontend = [
+    'Frontend készítésre szolgáló JavaScript keretrendszerek',
+    6,
+    [],
+];

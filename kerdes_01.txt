@@ -1,9 +1,7 @@
 A következő témában hozz létre négy quiz kérdést a következő feltételekkel:
 
-HTML5, CSS3: Ismeri a CSS3-szelektorok típusait (univerzális, elem, azonosító, osztály, pszeudo
-és speciális szelektorok), képes a megfelelő szelektor kiválasztásával stílus definiálására.
-
-
+CSS3: Ismeri a box modell és a box-sizing tulajdonság működését, és képes alkalmazni a
+célnak megfelelő értékekkel (content-box, border-box). Ismeri a z-index tulajdonság működését, és képes alkalmazni a célnak megfelelően. Ismeri a clearfix technika működését, és képes annak alkalmazására.
 
 - minden kérdésre négy lehetséges válasz
 - két kérdés esetén egy jó válasz
@@ -34,6 +32,7 @@ Ezt a formát használt minden quiz kérdés esetén:
 			eldont: 0,
 		},
 	],
+	kep: 'https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png',
 	helyes: 1,
 	indoklas:
 		'A &lt;dl&gt; (definition list) definíciós listát hoz létre, amelyben a &lt;dt&gt; a definiált kifejezést, a &lt;dd&gt; pedig annak magyarázatát tartalmazza.',

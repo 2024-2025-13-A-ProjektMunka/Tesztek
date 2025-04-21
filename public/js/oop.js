@@ -1,1 +1,1 @@
-let oop = ['Objektum-Orientált Programozás (OOP)', 8];
+let oop = ['Objektum-Orientált Programozás (OOP)', 8, []];

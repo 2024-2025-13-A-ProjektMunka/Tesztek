@@ -1,1 +1,1 @@
-let teszteles = ['Tesztelés', 10];
+let teszteles = ['Tesztelés', 10, []];

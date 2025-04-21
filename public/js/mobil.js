@@ -1,1 +1,1 @@
-let mobil = ['Mobil alkalmazásfejlesztés', 5];
+let mobil = ['Mobil alkalmazás-fejlesztés', 5, []];

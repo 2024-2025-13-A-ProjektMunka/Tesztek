@@ -1,1 +1,1 @@
-let tartalomkezelo = ['Tartalomkezelő rendszerek (CMS)', 9];
+let tartalomkezelo = ['Tartalomkezelő rendszerek (CMS)', 9, []];

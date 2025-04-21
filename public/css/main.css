@@ -13,6 +13,10 @@
     color: whitesmoke;
 }
 
+#elrejt {
+    display: none;
+}
+
 .kerdesek-kontener {
     display: grid;
     gap: 1em;
@@ -54,8 +58,39 @@
     text-decoration: underline;
 }
 
+.egyedi-kerdes .kep-tarto {
+    margin: auto;
+    width: 80%;
+}
+
+.egyedi-kerdes .kep-tarto img {
+    width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
     .kerdesek-kontener {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #main-kontener {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #elrejt {
+        color: white;
+        cursor: pointer;
+        display: block;
+    }
+
+    #nav-kontener {
+        display: none;
+    }
+
+    .kerdesek-kontener {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1em;
     }
 }

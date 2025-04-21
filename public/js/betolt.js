@@ -28,7 +28,13 @@ function felfed(index) {
     }
 }
 
+const navKontener = document.querySelector('#nav-kontener');
+const navKontenerLik = document.querySelectorAll('#nav-kontener li button');
+
 function betolt(index) {
+    if (window.innerWidth < 1000) {
+        navKontener.style.display = 'none';
+    }
     helyesek = [];
     if (index === 0) {
         kever(csoportmunka[2]);
@@ -63,5 +69,18 @@ function betolt(index) {
     } else if (index === 10) {
         kever(teszteles[2]);
         letrehoz(teszteles, teszt);
+    }
+}
+
+function elrejt() {
+    console.log('elrejt');
+
+    navKontener.style.display = 'block';
+    navKontener.style.zIndex = '10';
+    let tomb = Array.from(navKontenerLik);
+
+    for (let i = 0; i < tomb.length; i++) {
+        tomb[i].style.backgroundColor = 'blue';
+        tomb[i].style.color = 'white';
     }
 }
