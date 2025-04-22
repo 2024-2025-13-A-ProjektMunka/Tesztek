@@ -1,10 +1,11 @@
 A következő témában hozz létre négy quiz kérdést a következő feltételekkel:
 
-Adatbáziskezelés: ‒ a nézettáblák szerepét és a kezelésükre szolgáló parancsok használatát (CREATE
-VIEW, DROP VIEW, ALTER VIEW),
-‒ a tárolt függvények és eljárások szerepét és létrehozásukat, illetve törlésüket
-(CREATE/DROP/ALTER FUNCTION/PROCEDURE),
-‒ a triggerek szerepét és létrehozásukat, illetve törlésüket (CREATE/DROP TRIGGER).
+Mobil alkalmazásfejlesztés: Képes HTTP kérést küldeni és a választ lekezelni, szükség esetén a küldendő vagy
+érkező JSON-adatot szerializálni vagy deszerializálni.
+‒ Képes önállóan HTTP kérés eredményét tárolni és a UI-n megjeleníteni.
+
+Két kérdésre egy jó válasz.
+Két kérdésre két jó válasz.
 
 Ezt a formát használt minden quiz kérdés esetén:
 {
