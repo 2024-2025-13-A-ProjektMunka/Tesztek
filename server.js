@@ -17,3 +17,11 @@ app.get('/', (req, res) => {
         return res.status(500).json({ msg: 'Valami hiba: ' + error.message });
     }
 });
+
+app.get('/teszt', (req, res) => {
+    try {
+        return res.status(200).render('teszt.ejs');
+    } catch (error) {
+        return res.status(500).json({ msg: 'Valami hiba: ' + error.message });
+    }
+});

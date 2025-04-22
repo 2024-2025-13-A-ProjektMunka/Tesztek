@@ -1,0 +1,35 @@
+#test-kontener {
+    background-color: black;
+    color: whitesmoke;
+    margin: auto;
+    padding: 1em;
+    width: 50%;
+}
+
+#test-kontener h1 {
+    text-align: center;
+}
+
+#test-kerdesek {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    font-size: 3em;
+}
+
+@media screen and (max-width: 1000px) {
+    #test-kontener {
+        width: 100%;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .material-symbols-outlined {
+        font-size: 1.5em;
+    }
+}

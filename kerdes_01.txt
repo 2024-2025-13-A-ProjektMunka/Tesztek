@@ -1,13 +1,10 @@
 A következő témában hozz létre négy quiz kérdést a következő feltételekkel:
 
-Clean Code: SOLID
-
-- minden kérdésre négy lehetséges válasz
-- két kérdés esetén egy jó válasz
-- két kérdés esetén két jó válasz
-- minden esetben néhány mondatban indokold a jó válaszokat
-
-Kérek forrásokat is linkekkel.
+Adatbáziskezelés: ‒ a nézettáblák szerepét és a kezelésükre szolgáló parancsok használatát (CREATE
+VIEW, DROP VIEW, ALTER VIEW),
+‒ a tárolt függvények és eljárások szerepét és létrehozásukat, illetve törlésüket
+(CREATE/DROP/ALTER FUNCTION/PROCEDURE),
+‒ a triggerek szerepét és létrehozásukat, illetve törlésüket (CREATE/DROP TRIGGER).
 
 Ezt a formát használt minden quiz kérdés esetén:
 {
