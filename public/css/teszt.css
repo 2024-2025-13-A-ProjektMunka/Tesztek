@@ -16,9 +16,56 @@
     justify-content: space-between;
 }
 
+#test-kerdes {
+    color: black;
+}
+
+.test-egyedi-kerdes {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    /* position: relative; */
+}
+
+.test-egyedi-kerdes .kerdes-szam {
+    color: red;
+}
+
+.test-egyedi-kerdes ul {
+    list-style-position: inside;
+}
+
+.test-egyedi-kerdes button {
+    width: 100px;
+}
+
+.test-egyedi-kerdes .kep-tarto img {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+    margin-right: 1em;
+}
+
 .material-symbols-outlined {
     cursor: pointer;
     font-size: 3em;
+}
+
+#balra-nyil {
+    visibility: hidden;
+    user-select: none;
+}
+
+#kobbra-nyil {
+    visibility: hidden;
+    user-select: none;
 }
 
 @media screen and (max-width: 1000px) {

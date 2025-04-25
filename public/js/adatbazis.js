@@ -1621,7 +1621,7 @@ let adatbazis = [
                     eldont: 0,
                 },
             ],
-            kep: 'https://www.sqlservertutorial.net/wp-content/uploads/2020/04/SQL-Server-CREATE-ROLE.png',
+            kep: 'https://mortoff.hu/files/articles/0/3/3/33/_thumb/20211027155712-61795ab861c5a-modern-adatbazisok-masolat-big_jpg.jpg?v=1737561955',
             helyes: 1,
             indoklas:
                 'A szerepkörök (ROLE-ok) lehetővé teszik több felhasználó számára ugyanazon jogosultságok öröklését, így egyszerűsítik a jogosultságkezelést.',

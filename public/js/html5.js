@@ -97,7 +97,7 @@ let html5 = [
                 'Melyik elem szükséges egy érvényes HTML5 dokumentum létrehozásához?',
             kerdesek: [
                 {
-                    kerdes: '&lt!DOCTYPE html&gt;',
+                    kerdes: '&lt;!DOCTYPE html&gt;',
                     eldont: 1,
                 },
                 {
