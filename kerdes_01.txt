@@ -1,8 +1,6 @@
 A következő témában hozz létre négy quiz kérdést a következő feltételekkel:
 
-Mobil alkalmazásfejlesztés: Képes HTTP kérést küldeni és a választ lekezelni, szükség esetén a küldendő vagy
-érkező JSON-adatot szerializálni vagy deszerializálni.
-‒ Képes önállóan HTTP kérés eredményét tárolni és a UI-n megjeleníteni.
+Frontend AJAX:‒ API-kulcsok
 
 Két kérdésre egy jó válasz.
 Két kérdésre két jó válasz.

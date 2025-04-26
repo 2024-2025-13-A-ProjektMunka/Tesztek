@@ -4,7 +4,7 @@ function kever(tomb) {
 
 let teszt = document.querySelector('#teszt-kontener');
 
-kever(csoportmunka[2]);
+// kever(csoportmunka[2]);
 
 let helyesek = [];
 letrehoz(csoportmunka, teszt);
@@ -37,37 +37,37 @@ function betolt(index) {
     }
     helyesek = [];
     if (index === 0) {
-        kever(csoportmunka[2]);
+        // kever(csoportmunka[2]);
         letrehoz(csoportmunka, teszt);
     } else if (index === 1) {
-        kever(html5[2]);
+        // kever(html5[2]);
         letrehoz(html5, teszt);
     } else if (index === 2) {
-        kever(javaecma[2]);
+        // kever(javaecma[2]);
         letrehoz(javaecma, teszt);
     } else if (index === 3) {
-        kever(tisztakod[2]);
+        // kever(tisztakod[2]);
         letrehoz(tisztakod, teszt);
     } else if (index === 4) {
-        kever(adatbazis[2]);
+        // kever(adatbazis[2]);
         letrehoz(adatbazis, teszt);
     } else if (index === 5) {
-        kever(mobil[2]);
+        // kever(mobil[2]);
         letrehoz(mobil, teszt);
     } else if (index === 6) {
-        kever(frontend[2]);
+        // kever(frontend[2]);
         letrehoz(frontend, teszt);
     } else if (index === 7) {
-        kever(backend[2]);
+        // kever(backend[2]);
         letrehoz(backend, teszt);
     } else if (index === 8) {
-        kever(oop[2]);
+        // kever(oop[2]);
         letrehoz(oop, teszt);
     } else if (index === 9) {
-        kever(tartalomkezelo[2]);
+        // kever(tartalomkezelo[2]);
         letrehoz(tartalomkezelo, teszt);
     } else if (index === 10) {
-        kever(teszteles[2]);
+        // kever(teszteles[2]);
         letrehoz(teszteles, teszt);
     }
 }

@@ -337,7 +337,7 @@ let csoportmunka = [
                 },
                 { kerdes: 'Hangfájlok szerkesztése és keverése.', eldont: 0 },
             ],
-            kep: 'https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg',
+            kep: 'https://cdn.sanity.io/images/599r6htc/regionalized/1adfa5a99040c80af7b4b5e3e2cf845315ea2367-2400x1260.png',
             helyes: 1,
             indoklas:
                 'A Figma egy böngészőalapú grafikai és prototípus-tervező eszköz, amely lehetővé teszi a csapatok számára a valós idejű együttműködést.',
