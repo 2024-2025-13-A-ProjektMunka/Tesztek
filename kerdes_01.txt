@@ -1,6 +1,7 @@
 A következő témában hozz létre négy quiz kérdést a következő feltételekkel:
 
-Frontend AJAX:‒ API-kulcsok
+Rétegelt architektúra és ORM: ‒ Dependency Injection
+‒ Service réteg
 
 Két kérdésre egy jó válasz.
 Két kérdésre két jó válasz.

@@ -518,5 +518,726 @@ let frontend = [
             indoklas:
                 'Az API-kulcsokhoz hozzáférési jogosultság és kvóták is társíthatók, nem biztosítanak automatikusan teljes hozzáférést.',
         },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz az MVC (Model-View-Controller) architektúrával kapcsolatban?',
+            kerdesek: [
+                {
+                    kerdes: 'Az MVC a felhasználói felület és az üzleti logika szétválasztását segíti.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A View a felhasználói felület megjelenítéséért felelős.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A Model közvetlenül kezeli a felhasználói eseményeket.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A Controller a felhasználói események kezeléséért felelős.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://www.interviewbit.com/blog/wp-content/uploads/2022/05/image1.png',
+            helyes: 1,
+            indoklas:
+                'A Model az adatokat és üzleti logikát kezeli, a felhasználói események kezelése a Controller feladata.',
+        },
+        {
+            fokerdes:
+                'Mely állítások igazak az MVC modell különböző komponenseiről?',
+            kerdesek: [
+                {
+                    kerdes: 'A View felel az adatok megjelenítéséért a felhasználó számára.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A Controller módosítja az adatokat közvetlenül a felhasználó helyett.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A Model felel a felhasználói interakciók közvetlen megjelenítéséért.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A View kezeli az adatok feldolgozását.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://www.interviewbit.com/blog/wp-content/uploads/2022/05/image1.png',
+            helyes: 2,
+            indoklas:
+                'A View az adatokat jeleníti meg, a Controller pedig az interakciók hatására módosítja a Model állapotát.',
+        },
+        {
+            fokerdes: 'Melyik állítás nem előnye az MVC architektúrának?',
+            kerdesek: [
+                {
+                    kerdes: 'Könnyebb karbantartani és fejleszteni a kódot.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Egyszerűbbé válik a csapatmunkában való fejlesztés.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Minden logika és megjelenítés ugyanabban a komponensben található.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Növeli az alkalmazás újrafelhasználhatóságát.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://www.interviewbit.com/blog/wp-content/uploads/2022/05/image1.png',
+            helyes: 1,
+            indoklas:
+                'Az MVC célja épp a logika és megjelenítés szétválasztása, nem azok egy komponensbe tömörítése.',
+        },
+        {
+            fokerdes: 'Melyik állítások írják le helyesen az MVC működését?',
+            kerdesek: [
+                {
+                    kerdes: 'A felhasználó interakciói a Controller-en keresztül módosítják a Modelt.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A Model változásai automatikusan frissítik a View-t (megfelelő implementáció esetén).',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A View közvetlenül írhat adatot a Modelbe.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A Controller felel az adatok közvetlen tárolásáért adatbázisban.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://www.interviewbit.com/blog/wp-content/uploads/2022/05/image1.png',
+            helyes: 2,
+            indoklas:
+                'Az MVC-ben a Controller módosítja a Modelt, és a View frissülhet a Model változásaira.',
+        },
+        {
+            fokerdes: 'Melyik állítás nem igaz a React komponensekről?',
+            kerdesek: [
+                {
+                    kerdes: 'A komponensek újrafelhasználható UI-elemeket reprezentálnak.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Egy komponens csak egyszer használható egy alkalmazásban.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Komponensek lehetnek osztály alapúak vagy függvény alapúak.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A komponensek saját állapotot (state) is kezelhetnek.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 1,
+            indoklas:
+                'A komponensek újrafelhasználhatók több helyen is egy alkalmazásban, nem csak egyszer.',
+        },
+        {
+            fokerdes:
+                'Melyik állítások igazak a React komponensek kombinálására?',
+            kerdesek: [
+                {
+                    kerdes: 'Egy komponens tartalmazhat más komponenseket a JSX-ben.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Egy komponens csak egy másik komponenst tartalmazhat egyszerre.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Props segítségével adhatunk át adatot egy szülő komponenstől egy gyermek komponensnek.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A komponensek kombinálása csak class alapú komponensek között működik.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 2,
+            indoklas:
+                'Egy komponens több gyermeket is tartalmazhat, és props segítségével kommunikálhatunk köztük.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás hamis a React komponensek működésével kapcsolatban?',
+            kerdesek: [
+                {
+                    kerdes: 'A komponensek visszatérnek egy JSX elemmel, ami a megjelenítendő tartalmat írja le.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A komponensek csak HTML-t képesek visszaadni, JavaScript kódot nem tartalmazhatnak.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A JSX lehetőséget ad JavaScript kifejezések beszúrására kapcsos zárójelek között.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Egy komponens akár egy másik komponenst is renderelhet.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 1,
+            indoklas:
+                'A JSX kombinálja a HTML-t és JavaScript kódot, nem csak tiszta HTML-t ad vissza.',
+        },
+        {
+            fokerdes:
+                'Melyik állítások írják le helyesen a komponensek közötti kommunikációt React-ben?',
+            kerdesek: [
+                {
+                    kerdes: 'A szülő komponens props segítségével ad át adatot a gyermek komponenseknek.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A gyermek komponens közvetlenül módosíthatja a szülő komponens állapotát (state).',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Callback függvényeket is átadhatunk props-ként a gyermek komponenseknek, hogy azok jelezhessenek vissza.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A komponensek közötti kommunikáció mindig globális változókon keresztül történik.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 2,
+            indoklas:
+                'A komponensek közötti kommunikáció props-ok és callback függvények használatával történik, nem globális változókkal.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz a React egyszeres adatkapcsolatáról?',
+            kerdesek: [
+                {
+                    kerdes: 'React-ben az adatfolyam alapértelmezetten egyirányú (parent → child).',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az adatkapcsolat kétirányú minden komponens között alapértelmezetten.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A komponens adatai (state) meghatározzák a megjelenített értéket.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A props csak olvasható adatokat biztosít a gyermek komponensek számára.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 1,
+            indoklas:
+                'React-ben az adatfolyam egyirányú (unidirectional), nem kétirányú alapból.',
+        },
+        {
+            fokerdes:
+                'Melyik állítások igazak a React-ben történő kétirányú adatkapcsolatra?',
+            kerdesek: [
+                {
+                    kerdes: 'A felhasználói interakciók (pl. űrlapkitöltés) módosíthatják a komponens állapotát (state).',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A kétirányú adatkapcsolat React-ben automatikusan történik minden komponens esetén.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az input mezők értékét a state változókhoz köthetjük, majd az eseményekkel frissíthetjük az állapotot.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A React nem támogatja kétirányú adatkapcsolat létrehozását egyáltalán.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 2,
+            indoklas:
+                'React-ben az input vezérlők kétirányú adatkapcsolatot hozhatnak létre state kezelésével és eseményekkel.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás hamis a kontrollált komponensek működésével kapcsolatban React-ben?',
+            kerdesek: [
+                {
+                    kerdes: 'Egy kontrollált komponens értékét egy state változó határozza meg.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A kontrollált komponens mindig az aktuális DOM értékből olvassa az adatot.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az input értékét az onChange esemény segítségével tudjuk módosítani.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A kontrollált komponens adatai mindig a React komponens állapotában tárolódnak.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 1,
+            indoklas:
+                'Kontrollált komponensnél az adat a React state-ből származik, nem közvetlenül a DOM-ból.',
+        },
+        {
+            fokerdes:
+                'Melyik állítások helyesek a React adatkötési mechanizmusáról?',
+            kerdesek: [
+                {
+                    kerdes: 'Az érték (value) attribútumot egy állapotváltozóhoz köthetjük.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A React komponensekben az adatkapcsolat mindig globális változókon alapul.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az onChange esemény segítségével tudjuk szinkronizálni az input mező értékét a komponens state-jével.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az adatkötés automatikusan történik háttérben, eseménykezelők nélkül.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 2,
+            indoklas:
+                'React-ben az input mezők értékét állapotváltozóhoz kötjük és eseménykezelővel frissítjük.',
+        },
+        {
+            fokerdes: 'Melyik állítás nem igaz a React eseménykezelésére?',
+            kerdesek: [
+                {
+                    kerdes: 'React események camelCase szintaxist használnak, pl. onClick.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A React eseményeket JavaScript sztringként kell megadni, pl. \'onClick="handleClick()"\'.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az eseménykezelők függvényhivatkozásokat fogadnak.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A React eseménykezelés szintetikusan történik, nem közvetlenül a DOM-on.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 1,
+            indoklas:
+                'React-ben az eseménykezelőket nem sztringként, hanem függvényhivatkozásként adjuk meg.',
+        },
+        {
+            fokerdes:
+                'Melyik állítások igazak a React eseménykezeléssel kapcsolatban?',
+            kerdesek: [
+                {
+                    kerdes: 'Az eseménykezelőt közvetlenül átadjuk a JSX elemnek, például onClick={handleClick}.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'React-ben az eseménykezelők automatikusan az adott komponenshez vannak kötve, nem kell bind-olni őket class komponenseknél.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Ha az eseménykezelőben paramétert akarunk átadni, akkor arrow function-t használhatunk, pl. onClick={() => handleClick(param)}.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A React események mindig szinkron módon futnak le, függetlenül az async műveletektől.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 2,
+            indoklas:
+                'A JSX-ben függvényt adunk át eseménykezelőnek, paraméteres átadáshoz arrow function-t használhatunk.',
+        },
+        {
+            fokerdes: 'Melyik állítás nem igaz a React esemény objektumára?',
+            kerdesek: [
+                {
+                    kerdes: 'React eseményobjektuma egy szintetikus esemény, amely a böngésző natív eseményét csomagolja.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A React eseményobjektuma soha nem tartalmazza az eredeti böngésző esemény adatait.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az event.preventDefault() meghívása megakadályozza az alapértelmezett böngésző viselkedést.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az event.stopPropagation() megállítja az esemény terjedését a DOM fa mentén.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 1,
+            indoklas:
+                'A React szintetikus esemény hozzáférést biztosít az eredeti natív esemény adataihoz is.',
+        },
+        {
+            fokerdes:
+                'Melyik állítások helyesek a React komponens eseménykezelésével kapcsolatban?',
+            kerdesek: [
+                {
+                    kerdes: 'A komponens életciklusa alatt regisztrált események memória szivárgáshoz vezethetnek, ha nem távolítjuk el őket megfelelően.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Function komponenseknél nincs szükség az eseménykezelők manuális bindolására.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A React automatikusan eltávolítja az összes eseménykezelőt, amikor a komponens elpusztul.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az eseménykezelők csak akkor futnak le, ha explicit meghívjuk őket useEffect hívásból.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 2,
+            indoklas:
+                'Memória szivárgás elkerülése érdekében manuálisan kell törölni egyes eseményeket; function komponenseknél nincs szükség bindolásra.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz a React-ben történő AJAX kérésekre?',
+            kerdesek: [
+                {
+                    kerdes: 'A React nem tartalmaz beépített AJAX-képesítést, külön könyvtárat kell használni.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'AJAX kérések általában a komponens render függvényében történnek.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A fetch() vagy axios használata React-ben népszerű megoldás az AJAX-ra.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A React komponensek életciklus eseményei jó helyet biztosítanak AJAX kéréseknek.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 1,
+            indoklas:
+                'AJAX kérések nem a render függvényben történnek, hanem például useEffect-ben vagy lifecycle metódusokban.',
+        },
+        {
+            fokerdes:
+                'Melyik állítások igazak az AJAX hívások helyes kezeléséről React-ben?',
+            kerdesek: [
+                {
+                    kerdes: 'Function komponensekben az useEffect hook-ot szokás használni AJAX hívások indítására.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'AJAX kéréseket legjobb közvetlenül a komponens deklarációja alatt elindítani, még mielőtt render történik.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Class komponensek esetében a componentDidMount metódusban érdemes AJAX hívást végezni.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A React automatikusan kezeli az AJAX kérések törlését komponens unmount esetén.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 2,
+            indoklas:
+                'Function komponenseknél useEffect-et, class komponenseknél componentDidMount-ot használunk AJAX hívások indítására.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz a fetch() használatára React komponensekben?',
+            kerdesek: [
+                {
+                    kerdes: 'A fetch() egy Promise-alapú API a HTTP kérésekhez.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A fetch() automatikusan JSON-ként értelmezi a válaszokat.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A fetch() hívásokat .then() láncokkal vagy async/await szintaxissal kezelhetjük.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A fetch() csak akkor dob hibát, ha a hálózati kérés sikertelen, nem a HTTP státuszkódok alapján.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 1,
+            indoklas:
+                'A fetch() alapból nem konvertál automatikusan JSON-ra, nekünk kell meghívni a response.json() metódust.',
+        },
+        {
+            fokerdes:
+                'Melyik állítások igazak az axios használatára React-ben?',
+            kerdesek: [
+                {
+                    kerdes: 'Az axios automatikusan JSON formátumban küldi a kéréseket.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az axios response objektum közvetlenül tartalmazza a válasz adatokat a data property-ben.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az axios mindig GET metódust használ, még ha POST-ot adunk meg.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az axios nem támogatja az async/await szintaxist.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 2,
+            indoklas:
+                'Az axios automatikusan JSON-t használ és a válasz a response.data-ban érhető el.',
+        },
+        {
+            fokerdes: 'Melyik állítás nem igaz a React Router működésére?',
+            kerdesek: [
+                {
+                    kerdes: 'A React Router lehetővé teszi a kliens oldali navigációt új oldal betöltése nélkül.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A React Router automatikusan újratölti a teljes oldalt minden útvonalváltáskor.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A &lt;Route&gt; komponens felelős az URL és a komponens megjelenítése közti kapcsolatért.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A React Router támogatja a dinamikus útvonal paramétereket.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 1,
+            indoklas:
+                'A React Router nem tölti újra a teljes oldalt, hanem a DOM-ot módosítja a kliens oldalon.',
+        },
+        {
+            fokerdes:
+                'Melyik állítások igazak a React Router útvonalkezelésére?',
+            kerdesek: [
+                {
+                    kerdes: 'A &lt;Link&gt; komponens használatával URL-címet lehet váltani anélkül, hogy az oldal újratöltődne.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A &lt;BrowserRouter&gt; egy egyszerű wrapper a History API-ra alapozva.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A &lt;Router&gt; komponens minden egyes navigációkor frissíti a backend szervert.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A &lt;Route&gt; komponensek mindig egyszerre jelennek meg, függetlenül az URL-től.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 2,
+            indoklas:
+                'A &lt;Link&gt; komponens kliens oldali navigációt biztosít, a &lt;BrowserRouter&gt; pedig a History API-t használja a navigáció kezelésére.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz a dinamikus útvonalparaméterek kezelésére a React Router-ben?',
+            kerdesek: [
+                {
+                    kerdes: 'A dinamikus paramétereket a Route komponens path prop-jában kettőspont (:) használatával definiáljuk.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A useParams hook segítségével olvashatjuk ki az aktuális URL paramétereket.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A dinamikus paramétereket csak POST metódusnál lehet használni.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Több dinamikus paramétert is megadhatunk egy útvonalban.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 1,
+            indoklas:
+                'A dinamikus paraméterek URL-ben szerepelnek, GET típusú kéréseknél is használhatók, nem csak POST-nál.',
+        },
+        {
+            fokerdes:
+                'Melyik állítások igazak a programozott navigációra a React Router használatával?',
+            kerdesek: [
+                {
+                    kerdes: 'A useNavigate hook segítségével JavaScript-ből irányíthatjuk a felhasználót másik oldalra.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A navigate() függvény async/await szintaxissal használható.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A navigate(-1) hívás visszaléptet az előző oldalra a böngészési előzményekben.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A useNavigate csak class komponensekben érhető el.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 2,
+            indoklas:
+                'A useNavigate hook-kal átirányíthatjuk a felhasználót másik oldalra, a navigate(-1) pedig visszaléptet az előző oldalra.',
+        },
+        {
+            fokerdes: 'Melyik állítás nem igaz a React űrlapkezelésére?',
+            kerdesek: [
+                {
+                    kerdes: 'A React komponensekben az űrlapelemek értékét állapotban (state) szokás tárolni.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A React automatikusan validálja az összes űrlapot küldéskor.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az input mezők értékét onChange eseménnyel lehet frissíteni.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A controlled component kifejezés azt jelenti, hogy az érték a komponens állapotából származik.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 1,
+            indoklas:
+                'A React nem automatikusan validálja az űrlapokat; a fejlesztőnek kell ezt megvalósítania egyedi logikával.',
+        },
+        {
+            fokerdes:
+                'Melyik állítások igazak a controlled űrlapkomponensekre React-ben?',
+            kerdesek: [
+                {
+                    kerdes: 'A komponens állapota határozza meg az input mező aktuális értékét.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az input értéke közvetlenül az input DOM eleméből olvasható ki.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az onChange események segítségével frissítjük az input értékét.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A controlled elemek nem igényelnek állapotkezelést.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 2,
+            indoklas:
+                'A controlled inputok állapotalapúak, értékük az állapotból jön, és onChange eseményekkel frissítjük azt.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz az űrlapok onSubmit eseménykezelésére React-ben?',
+            kerdesek: [
+                {
+                    kerdes: 'Az onSubmit eseményt az űrlap elküldésekor váltjuk ki.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A preventDefault() hívása szükséges, ha el akarjuk kerülni az oldal újratöltését.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A React onSubmit eseménye automatikusan validálja az űrlapot a szerveren.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az onSubmit eseményt általában a form elemhez rendeljük hozzá.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 1,
+            indoklas:
+                'A React onSubmit nem végez automatikus szerver oldali validációt; ezt manuálisan kell implementálni.',
+        },
+        {
+            fokerdes:
+                'Melyik állítások igazak több input mező kezelésére React-ben?',
+            kerdesek: [
+                {
+                    kerdes: 'Egyetlen állapotobjektumban is tárolhatjuk az összes input értékét.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A fieldset HTML elem segíthet logikailag csoportosítani az űrlapmezőket.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Csak külön-külön állapotot használhatunk minden input mezőre.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Nem szükséges az input mezők nevére (name) figyelni több mező esetén.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://media.licdn.com/dms/image/v2/D4D12AQEZg9RbfHERFg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677919526250?e=2147483647&v=beta&t=X8Vlb6XABnlNsbiRC_dVL4Hq2qpMaUizNgQZu6hZbgU',
+            helyes: 2,
+            indoklas:
+                'Több mező esetén gyakori az egyetlen állapotobjektumban történő tárolás, és a fieldset elem segíthet a mezők csoportosításában.',
+        },
     ],
 ];

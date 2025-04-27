@@ -29,10 +29,13 @@ kerdesek = [...kerdesek, adatbazis[2][valogat(adatbazis, 2)[1]]];
 kerdesek = [...kerdesek, mobil[2][valogat(mobil, 1)]];
 kerdesek = [...kerdesek, frontend[2][valogat(frontend, 2)[0]]];
 kerdesek = [...kerdesek, frontend[2][valogat(frontend, 2)[1]]];
-// kerdesek = [...kerdesek, backend];
-// kerdesek = [...kerdesek, oop];
-// kerdesek = [...kerdesek, tartalomkezelo];
-// kerdesek = [...kerdesek, teszteles];
+kerdesek = [...kerdesek, backend[2][valogat(backend, 2)[0]]];
+kerdesek = [...kerdesek, backend[2][valogat(backend, 2)[1]]];
+kerdesek = [...kerdesek, oop[2][valogat(oop, 2)[0]]];
+kerdesek = [...kerdesek, oop[2][valogat(oop, 2)[1]]];
+kerdesek = [...kerdesek, tartalomkezelo[2][valogat(tartalomkezelo, 1)]];
+kerdesek = [...kerdesek, teszteles[2][valogat(teszteles, 2)[0]]];
+kerdesek = [...kerdesek, teszteles[2][valogat(teszteles, 2)[1]]];
 
 kever(kerdesek);
 
