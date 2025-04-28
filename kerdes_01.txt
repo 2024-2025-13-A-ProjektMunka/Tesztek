@@ -1,7 +1,7 @@
 A következő témában hozz létre négy quiz kérdést a következő feltételekkel:
 
-Rétegelt architektúra és ORM: ‒ Dependency Injection
-‒ Service réteg
+Rétegelt architektúra és ORM: ‒ Relációk (1:1, 1:N, N:N)
+‒ Egyedi lekérdezések
 
 Két kérdésre egy jó válasz.
 Két kérdésre két jó válasz.

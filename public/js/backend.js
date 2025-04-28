@@ -816,5 +816,417 @@ let backend = [
             indoklas:
                 'A formadatokat middleware-ek dolgozzák fel, a validáció után hibajelzést is adhatunk vissza a felhasználónak.',
         },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz a Dependency Injection (DI) mechanizmusra?',
+            kerdesek: [
+                {
+                    kerdes: 'A Dependency Injection a külső erőforrások osztályba történő átadását jelenti.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A Dependency Injection célja a laza csatolás elősegítése.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A Dependency Injection szoros csatolást hoz létre az osztályok között.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A Dependency Injection megkönnyíti a tesztelést.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://i.ytimg.com/vi/KthQ0UmBmxE/maxresdefault.jpg',
+            helyes: 1,
+            indoklas:
+                'A Dependency Injection célja éppen a szoros csatolás elkerülése, a komponensek közötti laza kapcsolat megteremtése.',
+        },
+        {
+            fokerdes:
+                'Mely állítások igazak a Service rétegre egy több rétegű architektúrában?',
+            kerdesek: [
+                {
+                    kerdes: 'A Service réteg üzleti logikát valósít meg.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A Service réteg közvetlenül a felhasználói felületet kezeli.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A Service réteg hívhat repository-kat adatlekéréshez.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A Service réteg csak adatbázis kapcsolódási feladatokat lát el.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://i.ytimg.com/vi/KthQ0UmBmxE/maxresdefault.jpg',
+            helyes: 2,
+            indoklas:
+                'A Service réteg a logika helye, nem kezel közvetlenül UI-t, de kapcsolatban állhat a repository réteggel az adatokért.',
+        },
+        {
+            fokerdes: 'Melyik nem egy Dependency Injection típus?',
+            kerdesek: [
+                {
+                    kerdes: 'Konstruktor alapú injekció.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Setter alapú injekció.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Reflexió alapú injekció.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Interfészen keresztüli injekció.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://i.ytimg.com/vi/KthQ0UmBmxE/maxresdefault.jpg',
+            helyes: 1,
+            indoklas:
+                'A konstruktor, setter és interfész injekció létező típusok, a reflexió inkább technikai háttérfolyamat, nem DI típus.',
+        },
+        {
+            fokerdes: 'Mely állítások helyesek a Service réteg funkcióiról?',
+            kerdesek: [
+                {
+                    kerdes: 'A Service réteg segít elkülöníteni az üzleti logikát az adateléréstől.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A Service réteg közvetlenül SQL lekérdezéseket ír a vezérlőben (Controller).',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A Service réteg könnyebbé teszi az alkalmazás skálázhatóságát.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A Service réteg a frontend komponenseket közvetlenül módosítja.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://i.ytimg.com/vi/KthQ0UmBmxE/maxresdefault.jpg',
+            helyes: 2,
+            indoklas:
+                'A Service réteg elszigeteli az üzleti logikát, elősegíti a karbantarthatóságot és skálázhatóságot, de nem ír közvetlen SQL-t vezérlőkbe vagy módosít frontend komponenseket.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz egy ORM (Object-Relational Mapping) rendszerre?',
+            kerdesek: [
+                {
+                    kerdes: 'Az ORM segít az adatbázis műveletek objektumorientált kezelésében.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az ORM rendszerek automatikusan generálnak SQL lekérdezéseket.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az ORM közvetlenül a HTML fájlokat módosítja.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'ORM használatával az adatbázis táblák osztályokká alakulnak.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://i.ytimg.com/vi/KthQ0UmBmxE/maxresdefault.jpg',
+            helyes: 1,
+            indoklas:
+                'Az ORM rendszerek az adatbázis és az objektumok közötti átalakítást végzik, nem módosítanak HTML fájlokat.',
+        },
+        {
+            fokerdes: 'Mely állítások igazak az ORM kapcsolatbeállításaira?',
+            kerdesek: [
+                {
+                    kerdes: 'Az ORM-ek támogatják az egy-a-többhöz (One-to-Many) kapcsolatokat.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'ORM használatával egy kapcsolatot mindig kézzel kell SQL-ben definiálni.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az ORM rendszerek képesek több-a-többhöz (Many-to-Many) kapcsolatok modellezésére is.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'ORM-ek nem képesek automatikusan kezelni idegen kulcsokat.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://i.ytimg.com/vi/KthQ0UmBmxE/maxresdefault.jpg',
+            helyes: 2,
+            indoklas:
+                'Az ORM rendszerek automatikusan kezelik a kapcsolatokat, így támogatják az egy-a-többhöz és a több-a-többhöz kapcsolatokat is.',
+        },
+        {
+            fokerdes: 'Melyik nem egy ORM technológia?',
+            kerdesek: [
+                {
+                    kerdes: 'Sequelize',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Eloquent',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Thymeleaf',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Entity Framework Core',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://i.ytimg.com/vi/KthQ0UmBmxE/maxresdefault.jpg',
+            helyes: 1,
+            indoklas:
+                'A Thymeleaf egy szerver oldali template engine, nem ORM megoldás.',
+        },
+        {
+            fokerdes:
+                'Mely kapcsolatokat támogatják általában az ORM rendszerek?',
+            kerdesek: [
+                {
+                    kerdes: 'One-to-One (egy-az-egyhez) kapcsolatok.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Many-to-Many (több-a-többhöz) kapcsolatok.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'One-to-Many (egy-a-többhöz) kapcsolatok csak speciális beállítással lehetségesek.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'ORM rendszerek kizárólag egytáblás adatmodellt kezelnek.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Relational_Database_Concepts.png',
+            helyes: 2,
+            indoklas:
+                'Az ORM rendszerek általában One-to-One, One-to-Many és Many-to-Many kapcsolatokat is támogatnak az adatbázisban.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz egy Entity (entitás) szerepére ORM rendszerekben?',
+            kerdesek: [
+                {
+                    kerdes: 'Az Entity egy adatbázis-tábla objektumorientált leképezése.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az Entity általában attribútumokkal (mezőkkel) és metódusokkal rendelkezik.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az Entity közvetlenül végrehajtja az SQL lekérdezéseket.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az Entity osztályokban általában egyedi azonosító (ID) mező is található.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://i.ytimg.com/vi/KthQ0UmBmxE/maxresdefault.jpg',
+            helyes: 1,
+            indoklas:
+                'Az Entity csak az adatot modellezi, nem hajt végre közvetlenül SQL lekérdezéseket.',
+        },
+        {
+            fokerdes:
+                'Mely állítások igazak a Repository rétegre a rétegelt architektúrában?',
+            kerdesek: [
+                {
+                    kerdes: 'A Repository az adathozzáférés elkülönítésére szolgál.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A Repository közvetlenül a kliens oldali kódból hívódik meg általában.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A Repository segíti az adatbázis műveletek egységes kezelését.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A Repository feladata a kliens oldali inputok validálása.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://i.ytimg.com/vi/KthQ0UmBmxE/maxresdefault.jpg',
+            helyes: 2,
+            indoklas:
+                'A Repository az adatkezelés absztrakcióját adja, elkülönítve a Service rétegtől és nem végez input validálást.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz a DbContext (vagy hasonló adatbázis-kontekstus) szerepére ORM-ekben?',
+            kerdesek: [
+                {
+                    kerdes: 'A DbContext biztosítja az adatbázis-műveletek végrehajtásának környezetét.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A DbContext kezeli az entitások követését és változásaik nyomon követését.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A DbContext automatikusan optimalizálja a frontend JavaScript kódot.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A DbContext létrehozhat új adatbázis kapcsolatot konfiguráció alapján.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://i.ytimg.com/vi/KthQ0UmBmxE/maxresdefault.jpg',
+            helyes: 1,
+            indoklas:
+                'A DbContext csak adatbázis műveletekkel foglalkozik, nem optimalizál frontend kódot.',
+        },
+        {
+            fokerdes:
+                'Mely állítások igazak az Entity és a Repository kapcsolatára?',
+            kerdesek: [
+                {
+                    kerdes: 'A Repository tárol és kezel Entity objektumokat.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az Entity közvetlenül módosítja az adatbázist minden változtatás után.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A Repository feladata az Entity példányok adatbázisba mentése és lekérése.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az Entity maga tartalmaz minden üzleti logikát és adatbázis elérési kódot.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://i.ytimg.com/vi/KthQ0UmBmxE/maxresdefault.jpg',
+            helyes: 2,
+            indoklas:
+                'Az Entity az adatmodellt írja le, a Repository kezeli ezek adatbázis műveleteit.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz az 1:N (egy a sokhoz) kapcsolat esetén?',
+            kerdesek: [
+                {
+                    kerdes: 'Egy rekord több másik rekordhoz kapcsolódhat.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Több rekord ugyanahhoz az egy rekordhoz kapcsolódhat.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Mindkét rekord csak egy másikhoz kapcsolódhat egyszerre.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az 1:N kapcsolatnál idegen kulcsot (foreign key) használnak.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://i.ytimg.com/vi/KthQ0UmBmxE/maxresdefault.jpg',
+            helyes: 1,
+            indoklas:
+                '1:N kapcsolatnál egy rekordhoz több másik rekord is kapcsolódhat, nem kizárólagosan egy-egyhez.',
+        },
+        {
+            fokerdes:
+                'Mely állítások igazak az N:N (sok a sokhoz) kapcsolat kezelésére ORM rendszerekben?',
+            kerdesek: [
+                {
+                    kerdes: 'Az N:N kapcsolatokat általában kapcsolótáblával valósítják meg.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az N:N kapcsolatokban mindig szükség van egy köztes entitásra vagy táblára.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az N:N kapcsolatban az egyik entitás közvetlenül hivatkozik a másikra idegen kulccsal.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'N:N kapcsolatokat nem lehet ORM rendszerekkel modellezni.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://i.ytimg.com/vi/KthQ0UmBmxE/maxresdefault.jpg',
+            helyes: 2,
+            indoklas:
+                'Az N:N kapcsolatoknál egy köztes táblára (join table) van szükség a kapcsolatok tárolásához.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz az ORM rendszerek egyedi lekérdezéseire?',
+            kerdesek: [
+                {
+                    kerdes: 'Az egyedi lekérdezések lehetővé teszik speciális szűrések megadását.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az egyedi lekérdezések mindig automatikusan generálódnak, testreszabás nélkül.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az ORM-ek általában támogatnak natív SQL használatát egyedi lekérdezésekhez is.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az egyedi lekérdezésekkel csökkenthető a felesleges adatlekérés mennyisége.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://i.ytimg.com/vi/KthQ0UmBmxE/maxresdefault.jpg',
+            helyes: 1,
+            indoklas:
+                'Az egyedi lekérdezéseket a fejlesztő írja meg az igényeknek megfelelően, nem automatikusan generálódnak minden esetben.',
+        },
+        {
+            fokerdes:
+                'Mely állítások igazak egyedi (custom) lekérdezések használatakor ORM rendszerekben?',
+            kerdesek: [
+                {
+                    kerdes: 'Egyedi lekérdezésekkel összetett szűréseket és aggregációkat is megvalósíthatunk.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Egyedi lekérdezések nem használhatnak paramétereket az SQL injekció elkerülésére.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'ORM rendszerek általában lehetővé teszik paraméterezett lekérdezések írását.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az egyedi lekérdezések mindig lassabbak a standard CRUD műveleteknél.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://i.ytimg.com/vi/KthQ0UmBmxE/maxresdefault.jpg',
+            helyes: 2,
+            indoklas:
+                'Az egyedi lekérdezések rugalmasak, és megfelelő paraméterezéssel biztonságosak is ORM rendszerekben.',
+        },
     ],
 ];
