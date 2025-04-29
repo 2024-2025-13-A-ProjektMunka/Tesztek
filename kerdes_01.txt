@@ -1,6 +1,6 @@
 A következő témában hozz létre négy quiz kérdést a következő feltételekkel:
 
-Javascript: ‒ Objektumok és tömbök kezelésére szolgáló ES6 függvények és operátorok
+Javascript: ‒ Az AJAX (Asynchronous JavaScript and XML), a fetch() függvény
 
 Két kérdésre egy jó válasz.
 Két kérdésre két jó válasz.

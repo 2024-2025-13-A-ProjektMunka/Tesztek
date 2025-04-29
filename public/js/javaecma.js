@@ -1346,5 +1346,721 @@ let javaecma = [
             indoklas:
                 'A &lt;label&gt; elem megkönnyíti az űrlapok használatát, és kattintásra fókuszba helyezi a kapcsolódó input mezőt.',
         },
+        {
+            fokerdes: 'Melyik állítás nem igaz az ES6 spread operátorra?',
+            kerdesek: [
+                {
+                    kerdes: 'A spread operátor (...) segítségével tömbök és objektumok másolhatók.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A spread operátor több elemet külön-külön ad át függvényeknek.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A spread operátor kizárólag számok összeadására szolgál.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A spread operátor tömbök egyesítésére is használható.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 1,
+            indoklas:
+                'A spread operátor nemcsak számokhoz, hanem tömbök, objektumok kibontására és másolására is használható.',
+        },
+        {
+            fokerdes: 'Mely állítások igazak az Array.map() függvényre?',
+            kerdesek: [
+                {
+                    kerdes: 'Az Array.map() új tömböt hoz létre a meglévő tömb elemeinek átalakításával.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az Array.map() módosítja az eredeti tömböt.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az Array.map() minden tömbelemre meghív egy callback függvényt.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az Array.map() kizárólag objektumokat tud feldolgozni.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 2,
+            indoklas:
+                'Az Array.map() új tömböt ad vissza, minden elemre meghívva a megadott függvényt, az eredeti tömböt nem módosítja.',
+        },
+        {
+            fokerdes: 'Melyik állítás nem igaz az Object.keys() függvényre?',
+            kerdesek: [
+                {
+                    kerdes: 'Az Object.keys() egy objektum kulcsait adja vissza tömbként.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az Object.keys() visszatérési értéke mindig objektum típusú.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az Object.keys() segítségével végig lehet iterálni egy objektum tulajdonságain.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az Object.keys() csak enumerable (felsorolható) tulajdonságokat ad vissza.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 1,
+            indoklas:
+                'Az Object.keys() mindig egy tömböt ad vissza, nem pedig objektumot.',
+        },
+        {
+            fokerdes: 'Mely állítások igazak az Array.filter() függvényre?',
+            kerdesek: [
+                {
+                    kerdes: 'Az Array.filter() új tömböt hoz létre a feltételnek megfelelő elemekből.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az Array.filter() minden elemet átalakít egy új értékké.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az Array.filter() nem módosítja az eredeti tömböt.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az Array.filter() mindig az összes elemet visszaadja.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 2,
+            indoklas:
+                'Az Array.filter() a megadott feltétel szerint válogat elemeket, új tömböt hozva létre anélkül, hogy az eredeti tömböt módosítaná.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz a console.log() használatára JavaScript hibakeresés során?',
+            kerdesek: [
+                {
+                    kerdes: 'A console.log() segítségével változók értékei jeleníthetők meg a konzolon.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A console.log() automatikusan kijavítja a szintaktikai hibákat.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A console.log() segít a program futási idejű viselkedésének megértésében.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A console.log() a fejlesztői eszközökben látható.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 1,
+            indoklas:
+                'A console.log() csak információkat jelenít meg a konzolon, nem javítja ki automatikusan a hibákat.',
+        },
+        {
+            fokerdes: 'Mely állítások igazak a JavaScript hibakeresésére?',
+            kerdesek: [
+                {
+                    kerdes: 'A debugger kulcsszóval megszakítható a kód futása egy adott ponton.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A hibák mindig csak a szintaktikai problémákból adódnak.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A böngészők fejlesztői eszközei segítségével lépésenként futtatható a JavaScript kód.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A hibakeresés során a változók értékei nem ellenőrizhetők.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 2,
+            indoklas:
+                'A debugger kulcsszó és a fejlesztői eszközök lehetővé teszik a kód futásának megszakítását és elemzését, nemcsak szintaktikai, hanem logikai hibákat is keresve.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz a JavaScript tesztelésére unit tesztekkel?',
+            kerdesek: [
+                {
+                    kerdes: 'A unit tesztek célja, hogy kis kódrészek helyes működését ellenőrizzék.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A unit tesztek automatikusan futtathatók tesztkörnyezetekben, például Jest-tel.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A unit tesztek garantálják, hogy a program mindig hibátlan lesz.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A unit tesztek növelhetik a kód megbízhatóságát.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 1,
+            indoklas:
+                'A unit tesztek segítenek hibák feltárásában, de nem garantálják a hibátlan működést minden körülmény között.',
+        },
+        {
+            fokerdes:
+                'Mely állítások igazak az assert() függvényre JavaScript teszteléskor?',
+            kerdesek: [
+                {
+                    kerdes: 'Az assert() ellenőrzi, hogy egy állítás igaz-e.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az assert() futtatásakor soha nem keletkezik hibaüzenet.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az assert() hibát dob, ha a feltétel hamis.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az assert() csak sztring típusú adatokat képes ellenőrizni.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 2,
+            indoklas:
+                'Az assert() igazságérték ellenőrzésére szolgál, és hibát jelez, ha a feltétel hamis.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz a setTimeout() függvényre JavaScript-ben?',
+            kerdesek: [
+                {
+                    kerdes: 'A setTimeout() egy adott idő elteltével hajtja végre a megadott függvényt.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A setTimeout() mindig pontosan időre futtatja a kódot, garantált késés nélkül.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A setTimeout() nem blokkolja a fő szálat a várakozás alatt.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A setTimeout() visszatérési értéke egy azonosító (ID), amely a timeout törlésére is használható.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 1,
+            indoklas:
+                'A setTimeout() nem garantálja az időzítést más műveletek prioritása miatt, ezért lehet némi késés.',
+        },
+        {
+            fokerdes:
+                'Mely állítások igazak az event listener-ekre JavaScript-ben?',
+            kerdesek: [
+                {
+                    kerdes: 'Egy event listener figyeli egy adott esemény bekövetkezését egy elemnél.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Egy event listener egyszerre csak egy eseményt tud figyelni.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Egy elemhez több event listener is hozzáadható különböző eseményekre.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Event listener-ek csak a gombokhoz rendelhetők hozzá.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 2,
+            indoklas:
+                'Az event listener-ek eseményeket figyelnek bármely DOM elemnél, és egy elemhez több is társítható különböző eseményekre.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz a callback függvényekre JavaScript-ben?',
+            kerdesek: [
+                {
+                    kerdes: 'A callback függvényeket általában egy művelet befejeződése után hívjuk meg.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A callback-ek a JavaScript szinkron működését biztosítják.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A callback lehet névtelen függvény is.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Callback használható például egy gomb kattintásának kezelésére is.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 1,
+            indoklas:
+                'A callback-ek pont az aszinkron működést segítik, nem szinkronizálják a kódot.',
+        },
+        {
+            fokerdes:
+                'Mely állítások igazak a setTimeout() és setInterval() függvényekre JavaScript-ben?',
+            kerdesek: [
+                {
+                    kerdes: 'A setTimeout() egyszer hajtja végre a megadott függvényt késleltetéssel.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A setInterval() folyamatosan, megadott időközönként futtatja a függvényt.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A setTimeout() automatikusan ismétli a függvényt minden 1000ms után.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A setInterval() csak egyszer futtatja a függvényt.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 2,
+            indoklas:
+                'A setTimeout() egyszeri késleltetést alkalmaz, míg a setInterval() ciklikusan hajtja végre a függvényt.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz a JavaScript Promise objektumra?',
+            kerdesek: [
+                {
+                    kerdes: 'A Promise aszinkron műveletek eredményét kezeli.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A Promise azonnal visszatér az aszinkron művelet eredményével.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A Promise lehet fulfilled, rejected vagy pending állapotú.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A Promise segítségével elkerülhető a callback hell.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 1,
+            indoklas:
+                'A Promise nem tér vissza azonnal az eredménnyel, hanem egy jövőbeli értéket képvisel, amelyet később kapunk meg.',
+        },
+        {
+            fokerdes:
+                'Melyik állítások igazak az async/await használatára JavaScript-ben?',
+            kerdesek: [
+                {
+                    kerdes: 'Az await kulcsszó megvárja, hogy egy Promise teljesüljön, mielőtt a kód tovább futna.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az async függvények mindig Promise-t adnak vissza.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az await kulcsszót használhatjuk bármilyen függvényen belül.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az async/await használatával szinkron kódfolyamatot hozunk létre az adatbázis-kezeléshez.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 2,
+            indoklas:
+                'Az async függvény mindig Promise-t ad vissza, és az await megvárja annak teljesülését. Az await csak async függvényen belül használható.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz az async kulcsszóra JavaScript-ben?',
+            kerdesek: [
+                {
+                    kerdes: 'Az async kulcsszóval ellátott függvények automatikusan Promise-t adnak vissza.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az async kulcsszó biztosítja, hogy a függvény blokkolja a fő szálat a végrehajtás alatt.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Async függvényen belül az await kulcsszóval várhatunk Promise teljesülésére.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az async függvények használata olvashatóbbá teszi az aszinkron kódot.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 1,
+            indoklas:
+                'Az async nem blokkolja a fő szálat, az async/await páros az aszinkron kód szebb kezelésére szolgál.',
+        },
+        {
+            fokerdes:
+                'Melyik állítások igazak a Promise hibakezelésére JavaScript-ben?',
+            kerdesek: [
+                {
+                    kerdes: 'A .catch() metódust a Promise hibakezelésére használjuk.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az async/await szintaxisban a try/catch blokkot használjuk hibakezelésre.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Promise hibák nem kezelhetők, ezért mindig elkerülhetők kell legyenek.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Ha egy Promise hibát dob, az automatikusan újrapróbálkozik.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 2,
+            indoklas:
+                'A Promise-ok hibakezelésére a .catch() vagy try/catch blokkot alkalmazzuk async/await esetén. Az automatikus újrapróbálkozást kézzel kell implementálni.',
+        },
+        {
+            fokerdes: 'Melyik állítás nem igaz a JSON formátumra?',
+            kerdesek: [
+                {
+                    kerdes: 'A JSON egy könnyű adatcsere formátum.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A JSON formátumban az objektum kulcsai idézőjelek között vannak.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A JSON lehet közvetlenül JavaScript függvényeket is tartalmazó adatstruktúra.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A JSON egyszerűen olvasható ember és gép számára is.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 1,
+            indoklas:
+                'A JSON csak adatok tárolására használható, nem tartalmazhat függvényeket, csak szöveget, számokat, objektumokat, tömböket, logikai értékeket és null-t.',
+        },
+        {
+            fokerdes:
+                'Mely állítások igazak a JSON.parse() és JSON.stringify() függvényekre?',
+            kerdesek: [
+                {
+                    kerdes: 'A JSON.parse() egy JSON szöveget alakít JavaScript objektummá.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A JSON.stringify() JavaScript objektumot alakít JSON szöveggé.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A JSON.stringify() JSON szöveget alakít JavaScript tömbbé.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A JSON.parse() futtat bármilyen benne található JavaScript kódot.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 2,
+            indoklas:
+                'A JSON.parse() JSON szöveget konvertál objektummá, a JSON.stringify() pedig objektumot alakít JSON szöveggé. A JSON.parse() nem futtat kódot, csak adatot alakít át.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz a JSON adatstruktúrával kapcsolatban?',
+            kerdesek: [
+                {
+                    kerdes: 'A JSON adatok kulcs-érték párokból állnak.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A JSON megengedi, hogy undefined típusú értékek is szerepeljenek.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A JSON objektumokat és tömböket is képes ábrázolni.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A JSON adattípusai közé tartozik a string, szám, logikai érték, tömb és objektum.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 1,
+            indoklas:
+                'A JSON nem támogatja az undefined értékeket, csak null-t használhat helyette.',
+        },
+        {
+            fokerdes:
+                'Mely állítások igazak a JSON adatformátum tulajdonságaira?',
+            kerdesek: [
+                {
+                    kerdes: 'A JSON adattípusai között szerepel a boolean.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A JSON formátumban az értékek közé számok is írhatók idézőjelek nélkül.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A JSON formátum megengedi a kommentek beszúrását az adatfájlba.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A JSON fájlok csak angol karaktereket tartalmazhatnak.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 2,
+            indoklas:
+                'A JSON támogatja a boolean típusú értékeket, és a számokat nem kell idézőjelbe tenni. Kommenteket nem enged meg a szabványos JSON szintaxis.',
+        },
+        {
+            fokerdes: 'Melyik állítás nem igaz a REST API architektúrára?',
+            kerdesek: [
+                {
+                    kerdes: 'A REST API-k az állapotmentesség elvén működnek.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A REST API-k minden kérésnél tartalmazzák a szükséges összes információt.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A REST API mindig WebSocket protokollt használ az adatátvitelre.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A REST API-k általában HTTP protokollon keresztül működnek.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 1,
+            indoklas:
+                'A REST API-k főként HTTP-t használnak, nem WebSocket-et. A REST architektúra állapotmentes, és minden kérés teljes információt tartalmaz.',
+        },
+        {
+            fokerdes: 'Mely állítások igazak a REST API működésére?',
+            kerdesek: [
+                {
+                    kerdes: 'A REST API műveletei között a GET a lekérdezésre szolgál.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A REST API-ban a POST kérés adatok módosítására szolgál.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A REST API PUT művelete adatok létrehozására vagy frissítésére használható.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A DELETE művelet új erőforrás létrehozását végzi.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 2,
+            indoklas:
+                'A GET kérés adatokat kér le, a PUT adatokat frissít vagy hoz létre. A POST inkább új adat létrehozására szolgál, a DELETE törli az adatokat.',
+        },
+        {
+            fokerdes: 'Melyik nem jellemző REST API elv?',
+            kerdesek: [
+                {
+                    kerdes: 'Állapotmentesség (statelessness).',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Egységes interfész (uniform interface).',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Üzenet-alapú titkosítás kötelezővé tétele minden REST kéréshez.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Erőforrások egyedi azonosítása URI-val.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 1,
+            indoklas:
+                'A REST API nem írja elő kötelezően az üzenet-alapú titkosítást; a biztonságos kommunikációt (például HTTPS) más módon biztosítják.',
+        },
+        {
+            fokerdes: 'Mely állítások igazak egy REST API szerkezetére?',
+            kerdesek: [
+                {
+                    kerdes: 'A REST API-kban az erőforrásokat URL-ekkel azonosítjuk.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A REST API-kban a HTTP metódusok (GET, POST, PUT, DELETE) szabványos jelentéssel bírnak.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A REST API-khoz minden kéréshez külön adatbázis-kapcsolatot kell létrehozni.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A REST API-k csak JSON formátumban képesek adatot visszaadni.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 2,
+            indoklas:
+                'Az erőforrások URL-lel azonosíthatók, a HTTP metódusok pedig szabványos funkciókat töltenek be. A REST API nem kötelezően JSON-t használ, XML is lehet például.',
+        },
+        {
+            fokerdes:
+                'Melyik állítás nem igaz az AJAX működésével kapcsolatban?',
+            kerdesek: [
+                {
+                    kerdes: 'Az AJAX lehetővé teszi, hogy a weboldal frissítése újratöltés nélkül történjen.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az AJAX mindig XML formátumot használ az adatok küldésére.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az AJAX HTTP kéréseket használ az adatok küldésére és fogadására.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Az AJAX aszinkron módon kommunikál a szerverrel.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 1,
+            indoklas:
+                'Az AJAX eredetileg XML-t használt, de ma már JSON vagy más formátumok is általánosak.',
+        },
+        {
+            fokerdes: 'Melyik állítások igazak a fetch() függvényre?',
+            kerdesek: [
+                {
+                    kerdes: 'A fetch() egy Promise-t ad vissza.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A fetch() csak szinkron HTTP kérések küldésére használható.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A fetch() alapértelmezett módszere a GET.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A fetch() csak JSON válaszok kezelésére képes.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 2,
+            indoklas:
+                'A fetch() egy Promise-t ad vissza, és alapból GET metódust használ. Szinkron módon nem működik, és nem csak JSON válaszokat kezel.',
+        },
+        {
+            fokerdes:
+                'Melyik nem kötelező paraméter a fetch() függvény hívásakor?',
+            kerdesek: [
+                {
+                    kerdes: 'URL cím, ahová a kérés irányul.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'HTTP metódus beállítása (pl. GET, POST).',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'Az adatok JSON formátumba alakítása a válasz feldolgozásakor.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'Kérés fejlécének (headers) megadása, ha szükséges.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 1,
+            indoklas:
+                'A fetch() alapértelmezett metódusa a GET, így nem kötelező külön megadni, hacsak nem változtatni akarunk rajta.',
+        },
+        {
+            fokerdes: 'Melyek igazak a fetch() válaszobjektumra (Response)?',
+            kerdesek: [
+                {
+                    kerdes: 'A response.json() Promise-t ad vissza a JSON-adatok feldolgozásához.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A response.text() a választ szövegként adja vissza.',
+                    eldont: 1,
+                },
+                {
+                    kerdes: 'A response.ok tulajdonság mindig false értékű, ha a HTTP státusz 404.',
+                    eldont: 0,
+                },
+                {
+                    kerdes: 'A response.body automatikusan JSON-objektumot ad vissza.',
+                    eldont: 0,
+                },
+            ],
+            kep: 'https://cubixedu.com/app/uploads/2022/05/javascript-felhasznalasi-teruletek.jpg',
+            helyes: 2,
+            indoklas:
+                'A response.json() és a response.text() aszinkron metódusok, melyek Promise-t adnak vissza. A response.ok igaz, ha a státusz kód 200–299 közé esik.',
+        },
     ],
 ];
