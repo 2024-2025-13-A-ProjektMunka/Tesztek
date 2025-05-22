@@ -57,19 +57,19 @@ let backend = [
             kerdesek: [
                 {
                     kerdes: 'A POST metódus csak adatlekérésre használható.',
-                    eldont: 1,
+                    eldont: 0,
                 },
                 {
                     kerdes: 'A POST kérések tartalmazhatnak adatokat a törzsben (body).',
-                    eldont: 0,
-                },
-                {
-                    kerdes: 'A POST metódus nem módosítja a szerver állapotát.',
                     eldont: 1,
                 },
                 {
-                    kerdes: 'A POST metódus új erőforrások létrehozására használható.',
+                    kerdes: 'A POST metódus nem módosítja a szerver állapotát.',
                     eldont: 0,
+                },
+                {
+                    kerdes: 'A POST metódus új erőforrások létrehozására használható.',
+                    eldont: 1,
                 },
             ],
             kep: 'https://miro.medium.com/v2/resize:fit:853/1*8-fT6K1o6nHiBRxKppcqOg.png',
